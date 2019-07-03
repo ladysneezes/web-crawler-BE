@@ -2,12 +2,6 @@ const fetch = require("node-fetch");
 const JSDOM = require("jsdom").JSDOM;
 
 const fetchScrape = req => {
-<<<<<<< HEAD
-  console.log("in model");
-  https.request(req, res => {
-    console.log(res);
-  });
-=======
   let selector = "a[href]";
   let url = req;
 
@@ -39,9 +33,8 @@ const fetchScrape = req => {
         return answer;
       });
     });
->>>>>>> 38737c7e5672be3138e1a701af3c7ca8fb3788ad
 };
 
-// testing 2
+// testing 3333
 
 module.exports = fetchScrape;
